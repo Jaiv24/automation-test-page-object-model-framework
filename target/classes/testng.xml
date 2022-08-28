@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Scotiabank TDD">
+Ω
 	<listeners>
 		<listener class-name="com.lms.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
+	
+	<listeners>
+		<listener class-name="Analyzer.MyTransformer" />
+	</listeners>
+	
 
 	<test name="Scotianal ALL TESTS">
 		<classes>

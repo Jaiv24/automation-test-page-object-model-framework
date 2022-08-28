@@ -30,7 +30,7 @@ public class BusinessPageTest extends TestBase{
 		
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 1, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyBusinessPageTitleTest() {
 		String title = businessPage.validateBusinessPageTitle();
 		Assert.assertEquals(title, "Small Business Banking Services | Scotiabank Canada", "Business Title Doesn't match.");

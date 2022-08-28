@@ -1,44 +1,44 @@
-2022-08-28 13:41:29,556  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
-2022-08-28 13:41:29,561  INFO [main] LoginPageTest:27 - launching broswer
-2022-08-28 13:41:35,380  INFO [main] LoginPageTest:29 - entering application URL
-2022-08-28 13:41:35,381  WARN [main] LoginPageTest:30 - Hey this just a warning message
-2022-08-28 13:41:35,381 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
-2022-08-28 13:41:35,381 DEBUG [main] LoginPageTest:32 - this is debug message
-2022-08-28 13:41:35,424  INFO [main] LoginPageTest:39 - *************** starting test case-1 *************
-2022-08-28 13:41:35,425  INFO [main] LoginPageTest:40 - *************** scotiaBankTitleTest **************
-2022-08-28 13:41:35,435  INFO [main] LoginPageTest:43 - *************** Ending test case-1 ***************
-2022-08-28 13:41:35,436  INFO [main] LoginPageTest:44 - *************** scotiaBankTitleTest **************
-2022-08-28 13:41:35,886  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
-2022-08-28 13:41:35,888  INFO [main] LoginPageTest:27 - launching broswer
-2022-08-28 13:41:40,701  INFO [main] LoginPageTest:29 - entering application URL
-2022-08-28 13:41:40,702  WARN [main] LoginPageTest:30 - Hey this just a warning message
-2022-08-28 13:41:40,702 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
-2022-08-28 13:41:40,702 DEBUG [main] LoginPageTest:32 - this is debug message
-2022-08-28 13:41:41,882  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
-2022-08-28 13:41:41,882  INFO [main] LoginPageTest:27 - launching broswer
-2022-08-28 13:41:46,326  INFO [main] LoginPageTest:29 - entering application URL
-2022-08-28 13:41:46,327  WARN [main] LoginPageTest:30 - Hey this just a warning message
-2022-08-28 13:41:46,328 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
-2022-08-28 13:41:46,328 DEBUG [main] LoginPageTest:32 - this is debug message
-2022-08-28 13:41:47,385  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
-2022-08-28 13:41:47,388  INFO [main] LoginPageTest:27 - launching broswer
-2022-08-28 13:41:52,691  INFO [main] LoginPageTest:29 - entering application URL
-2022-08-28 13:41:52,692  WARN [main] LoginPageTest:30 - Hey this just a warning message
-2022-08-28 13:41:52,692 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
-2022-08-28 13:41:52,692 DEBUG [main] LoginPageTest:32 - this is debug message
-2022-08-28 13:41:53,800  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
-2022-08-28 13:41:53,800  INFO [main] LoginPageTest:27 - launching broswer
-2022-08-28 13:41:58,500  INFO [main] LoginPageTest:29 - entering application URL
-2022-08-28 13:41:58,501  WARN [main] LoginPageTest:30 - Hey this just a warning message
-2022-08-28 13:41:58,501 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
-2022-08-28 13:41:58,501 DEBUG [main] LoginPageTest:32 - this is debug message
-2022-08-28 13:42:33,008 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-2022-08-28 13:42:33,009 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-2022-08-28 13:42:33,010 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2022-08-28 13:42:33,011 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2022-08-28 13:42:33,011 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2022-08-28 13:42:33,348 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-2022-08-28 13:42:33,354 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-2022-08-28 13:42:33,355 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2022-08-28 13:42:33,356 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2022-08-28 13:42:33,356 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-08-28 15:04:28,883  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
+2022-08-28 15:04:28,887  INFO [main] LoginPageTest:27 - launching broswer
+2022-08-28 15:04:34,437  INFO [main] LoginPageTest:29 - entering application URL
+2022-08-28 15:04:34,438  WARN [main] LoginPageTest:30 - Hey this just a warning message
+2022-08-28 15:04:34,438 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
+2022-08-28 15:04:34,439 DEBUG [main] LoginPageTest:32 - this is debug message
+2022-08-28 15:04:34,484  INFO [main] LoginPageTest:39 - *************** starting test case-1 *************
+2022-08-28 15:04:34,486  INFO [main] LoginPageTest:40 - *************** scotiaBankTitleTest **************
+2022-08-28 15:04:34,495  INFO [main] LoginPageTest:43 - *************** Ending test case-1 ***************
+2022-08-28 15:04:34,495  INFO [main] LoginPageTest:44 - *************** scotiaBankTitleTest **************
+2022-08-28 15:04:34,960  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
+2022-08-28 15:04:34,962  INFO [main] LoginPageTest:27 - launching broswer
+2022-08-28 15:04:39,927  INFO [main] LoginPageTest:29 - entering application URL
+2022-08-28 15:04:39,928  WARN [main] LoginPageTest:30 - Hey this just a warning message
+2022-08-28 15:04:39,928 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
+2022-08-28 15:04:39,928 DEBUG [main] LoginPageTest:32 - this is debug message
+2022-08-28 15:04:41,210  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
+2022-08-28 15:04:41,210  INFO [main] LoginPageTest:27 - launching broswer
+2022-08-28 15:04:45,903  INFO [main] LoginPageTest:29 - entering application URL
+2022-08-28 15:04:45,904  WARN [main] LoginPageTest:30 - Hey this just a warning message
+2022-08-28 15:04:45,904 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
+2022-08-28 15:04:45,904 DEBUG [main] LoginPageTest:32 - this is debug message
+2022-08-28 15:04:46,964  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
+2022-08-28 15:04:46,968  INFO [main] LoginPageTest:27 - launching broswer
+2022-08-28 15:04:51,802  INFO [main] LoginPageTest:29 - entering application URL
+2022-08-28 15:04:51,803  WARN [main] LoginPageTest:30 - Hey this just a warning message
+2022-08-28 15:04:51,803 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
+2022-08-28 15:04:51,803 DEBUG [main] LoginPageTest:32 - this is debug message
+2022-08-28 15:04:52,912  INFO [main] LoginPageTest:26 - ****************************** Starting test cases execution  *****************************************
+2022-08-28 15:04:52,912  INFO [main] LoginPageTest:27 - launching broswer
+2022-08-28 15:04:57,689  INFO [main] LoginPageTest:29 - entering application URL
+2022-08-28 15:04:57,690  WARN [main] LoginPageTest:30 - Hey this just a warning message
+2022-08-28 15:04:57,690 FATAL [main] LoginPageTest:31 - hey this is just fatal error message
+2022-08-28 15:04:57,690 DEBUG [main] LoginPageTest:32 - this is debug message
+2022-08-28 15:05:29,958 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2022-08-28 15:05:29,959 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+2022-08-28 15:05:29,960 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-08-28 15:05:29,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-08-28 15:05:29,961 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-08-28 15:05:30,280 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+2022-08-28 15:05:30,283 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+2022-08-28 15:05:30,283 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-08-28 15:05:30,284 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-08-28 15:05:30,284 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

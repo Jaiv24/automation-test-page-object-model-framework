@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.lms.qa.tests.LoginPageTest">
+      <class name="com.lms.qa.tests.BusinessPageTest">
         <methods>
-          <include name="LoginEmailWithSpecialChar"/>
-          <include name="LoginWithEmptyEmail"/>
-          <include name="LoginWithEmptyPassword"/>
-          <include name="setUp"/>
+          <include name="verifyBusinessPageTitleTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.lms.qa.tests.LoginPageTest -->
+      </class> <!-- com.lms.qa.tests.BusinessPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
