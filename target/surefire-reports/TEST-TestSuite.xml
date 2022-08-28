@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="50.52" tests="13" errors="0" skipped="5" failures="2">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/test-classes:/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/classes:/Users/jaiv/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/jaiv/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jaiv/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jaiv/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jaiv/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jaiv/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jaiv/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jaiv/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jaiv/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jaiv/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jaiv/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/jaiv/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jaiv/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jaiv/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/jaiv/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jaiv/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jaiv/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jaiv/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jaiv/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/jaiv/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/Users/jaiv/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/Users/jaiv/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/Users/jaiv/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/jaiv/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/jaiv/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jaiv/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jaiv/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/jaiv/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jaiv/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/jaiv/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/jaiv/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/jaiv/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/jaiv/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/jaiv/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/jaiv/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/surefire/surefirebooter3550737457787417276.jar /Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/surefire 2022-08-28T13-37-06_847-jvmRun1 surefire2284511430121540353tmp surefire_012540408788782481892tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/test-classes:/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/classes:/Users/jaiv/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/jaiv/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/jaiv/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/jaiv/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/jaiv/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jaiv/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/jaiv/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jaiv/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jaiv/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jaiv/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jaiv/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/jaiv/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/jaiv/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/jaiv/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/jaiv/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/jaiv/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jaiv/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jaiv/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jaiv/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jaiv/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi/3.6/poi-3.6.jar:/Users/jaiv/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/Users/jaiv/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/Users/jaiv/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/Users/jaiv/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi-ooxml/3.6/poi-ooxml-3.6.jar:/Users/jaiv/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.6/poi-ooxml-schemas-3.6.jar:/Users/jaiv/.m2/repository/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar:/Users/jaiv/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/jaiv/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/jaiv/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/jaiv/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jaiv/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/jaiv/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/jaiv/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/jaiv/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/jaiv/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/jaiv/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/jaiv/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/jaiv/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jaiv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest/target/surefire/surefirebooter3550737457787417276.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2+0"/>
+    <property name="user.name" value="jaiv"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jaiv/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/jaiv/Desktop/Selenium_WorkSpace/MavenTest"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="/Users/jaiv/Desktop/SeleniumJars/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jaiv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.lms.qa.tests.BusinessPageTest" time="6.226">
+    <failure type="java.nio.BufferOverflowException"><![CDATA[java.nio.BufferOverflowException
+	at java.base/java.nio.Buffer.nextPutIndex(Buffer.java:722)
+	at java.base/java.nio.HeapByteBuffer.put(HeapByteBuffer.java:209)
+	at org.apache.maven.surefire.api.stream.AbstractStreamEncoder.encodeString(AbstractStreamEncoder.java:127)
+	at org.apache.maven.surefire.api.stream.AbstractStreamEncoder.encodeStringData(AbstractStreamEncoder.java:171)
+	at org.apache.maven.surefire.api.stream.AbstractStreamEncoder.encode(AbstractStreamEncoder.java:157)
+	at org.apache.maven.surefire.booter.spi.EventChannelEncoder.encodeMessage(EventChannelEncoder.java:398)
+	at org.apache.maven.surefire.booter.spi.EventChannelEncoder.setOutErr(EventChannelEncoder.java:188)
+	at org.apache.maven.surefire.booter.spi.EventChannelEncoder.testOutput(EventChannelEncoder.java:183)
+	at org.apache.maven.surefire.api.booter.ForkingRunListener.writeTestOutput(ForkingRunListener.java:113)
+	at org.apache.maven.surefire.api.booter.ForkingRunListener.writeTestOutput(ForkingRunListener.java:44)
+	at org.apache.maven.surefire.testng.TestNGReporter.writeTestOutput(TestNGReporter.java:240)
+	at org.apache.maven.surefire.api.report.ConsoleOutputCapture$ForwardingPrintStream.println(ConsoleOutputCapture.java:138)
+	at com.lms.qa.pages.LoginPage.homePage(LoginPage.java:91)
+	at com.lms.qa.tests.BusinessPageTest.setUp(BusinessPageTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Trying to find Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Found Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Trying to click on: [[FirefoxDriver: firefox on MAC (7a26f44d-1c24-4895-87b9-e14dee0c0050)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+Clicked on: [[FirefoxDriver: firefox on MAC (7a26f44d-1c24-4895-87b9-e14dee0c0050)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+2
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1661708228673	geckodriver	INFO	Listening on 127.0.0.1:24400
+1661708228776	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileLzZfpk"
+2022-08-28 13:37:09.443 plugin-container[8848:287302] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:09.443 plugin-container[8848:287302] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:09.447 plugin-container[8848:287302] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:09.447 plugin-container[8848:287302] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:09.447 plugin-container[8848:287300] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:09.447 plugin-container[8848:287300] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708229495	Marionette	INFO	Marionette enabled
+1661708229587	Marionette	INFO	Listening on port 63260
+Read port: 63260
+1661708229798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileLzZfpk/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:11 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.lms.qa.tests.BusinessPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyBusinessPageTitleTest" classname="com.lms.qa.tests.BusinessPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lms.qa.tests.BusinessPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.lms.qa.tests.BusinessPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateSizeOfList" classname="com.lms.qa.tests.BusinessPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" classname="com.lms.qa.tests.HomePageTest" time="0.007">
+    <failure message="HomePage Title Doesn&apos;t match. expected [Personal Banking | Scotiabank Canada] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: HomePage Title Doesn't match. expected [Personal Banking | Scotiabank Canada] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.lms.qa.tests.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:192)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:93)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Trying to find Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Found Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Trying to click on: [[FirefoxDriver: firefox on MAC (cbb0bd1e-609d-4f7b-9b9c-88786e55bab4)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+Clicked on: [[FirefoxDriver: firefox on MAC (cbb0bd1e-609d-4f7b-9b9c-88786e55bab4)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+2
+
+]]></system-out>
+    <system-err><![CDATA[1661708234329	geckodriver	INFO	Listening on 127.0.0.1:11597
+1661708234342	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofile2WDVy2"
+JavaScript warning: https://assets.adobedtm.com/27c34d6e7144/848aa93f9a82/launch-e8eb4aa8f29f.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2022-08-28 13:37:14.904 plugin-container[8860:287704] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:14.905 plugin-container[8860:287704] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:14.908 plugin-container[8860:287704] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:14.908 plugin-container[8860:287704] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:14.908 plugin-container[8860:287702] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:14.908 plugin-container[8860:287702] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708234930	Marionette	INFO	Marionette enabled
+1661708234972	Marionette	INFO	Listening on port 63437
+Read port: 63437
+1661708235182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofile2WDVy2/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:16 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://auth.scotiaonline.scotiabank.com/38g9Wi/ptxx_B/V8zBk/8TVUa/UD/uV5L0S8w/KSsCAQ/ZkhjAGI/YFCo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+  </testcase>
+  <testcase name="clickOnSmallBusinessLink" classname="com.lms.qa.tests.HomePageTest" time="4.101">
+    <system-out><![CDATA[Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Trying to find Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Found Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Trying to click on: [[FirefoxDriver: firefox on MAC (54739f14-d7b3-43b7-a0fb-6163662ceae3)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+Clicked on: [[FirefoxDriver: firefox on MAC (54739f14-d7b3-43b7-a0fb-6163662ceae3)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+2
+Personal Banking | Scotiabank Canada
+Trying to find Element By : By.xpath: //a[contains(text(),'Small Business')]
+Found Element By : By.xpath: //a[contains(text(),'Small Business')]
+Trying to click on: [[FirefoxDriver: firefox on MAC (54739f14-d7b3-43b7-a0fb-6163662ceae3)] -> xpath: //a[contains(text(),'Small Business')]]
+Clicked on: [[FirefoxDriver: firefox on MAC (54739f14-d7b3-43b7-a0fb-6163662ceae3)] -> xpath: //a[contains(text(),'Small Business')]]
+]]></system-out>
+    <system-err><![CDATA[1661708239736	Marionette	INFO	Stopped listening on port 63437
+1661708240193	geckodriver	INFO	Listening on 127.0.0.1:9570
+1661708240201	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilekgv2Wf"
+2022-08-28 13:37:20.688 plugin-container[8873:288231] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:20.688 plugin-container[8873:288231] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:20.691 plugin-container[8873:288231] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:20.691 plugin-container[8873:288231] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:20.692 plugin-container[8873:288238] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:20.692 plugin-container[8873:288238] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708240712	Marionette	INFO	Marionette enabled
+1661708240751	Marionette	INFO	Listening on port 63611
+Read port: 63611
+1661708240945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilekgv2Wf/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:22 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+1661708245442	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://assets.adobedtm.com/27c34d6e7144/848aa93f9a82/launch-e8eb4aa8f29f.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.scotiabank.com/etc/designs/sbr/clientlibs/vendor.babel.min.777d1bb975dd006f5d969f86d553db73.js, line 2: Error: only one instance of babel-polyfill is allowed
+JavaScript error: https://www.scotiabank.com/etc/designs/sbr/clientlibs/bns.refresh.min.d78c619424996a741670446dce33ee6b.js, line 780: TypeError: `target` argument of Proxy must be an object, got the string "https://www.scotiabank.com/ca/en/small-business.html"
+]]></system-err>
+  </testcase>
+  <testcase name="LoginPageTitleTest" classname="com.lms.qa.tests.LoginPageTest" time="0.004">
+    <system-out><![CDATA[08-28-2022 13:37:29 LoginPageTest.java INFO  [main] tests.LoginPageTest 26 - ****************************** Starting test cases execution  *****************************************
+08-28-2022 13:37:29 LoginPageTest.java INFO  [main] tests.LoginPageTest 27 - launching broswer
+Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+08-28-2022 13:37:34 LoginPageTest.java INFO  [main] tests.LoginPageTest 29 - entering application URL
+08-28-2022 13:37:34 LoginPageTest.java WARN  [main] tests.LoginPageTest 30 - Hey this just a warning message
+08-28-2022 13:37:34 LoginPageTest.java FATAL [main] tests.LoginPageTest 31 - hey this is just fatal error message
+08-28-2022 13:37:34 LoginPageTest.java DEBUG [main] tests.LoginPageTest 32 - this is debug message
+08-28-2022 13:37:34 LoginPageTest.java INFO  [main] tests.LoginPageTest 39 - *************** starting test case-1 *************
+08-28-2022 13:37:34 LoginPageTest.java INFO  [main] tests.LoginPageTest 40 - *************** scotiaBankTitleTest **************
+08-28-2022 13:37:34 LoginPageTest.java INFO  [main] tests.LoginPageTest 43 - *************** Ending test case-1 ***************
+08-28-2022 13:37:34 LoginPageTest.java INFO  [main] tests.LoginPageTest 44 - *************** scotiaBankTitleTest **************
+]]></system-out>
+    <system-err><![CDATA[1661708249425	Marionette	INFO	Stopped listening on port 63611
+JavaScript warning: https://auth.scotiaonline.scotiabank.com/38g9Wi/ptxx_B/V8zBk/8TVUa/UD/uV5L0S8w/KSsCAQ/ZkhjAGI/YFCo, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661708249916	geckodriver	INFO	Listening on 127.0.0.1:45544
+1661708249925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilezKz9ny"
+2022-08-28 13:37:30.329 plugin-container[8883:288713] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:30.329 plugin-container[8883:288713] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:30.332 plugin-container[8883:288713] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:30.332 plugin-container[8883:288713] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:30.333 plugin-container[8883:288719] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:30.333 plugin-container[8883:288719] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708250352	Marionette	INFO	Marionette enabled
+1661708250407	Marionette	INFO	Listening on port 63856
+Read port: 63856
+1661708250706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilezKz9ny/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:31 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+  <testcase name="LoginEmailWithSpecialChar" classname="com.lms.qa.tests.LoginPageTest" time="0.567">
+    <system-out><![CDATA[08-28-2022 13:37:35 LoginPageTest.java INFO  [main] tests.LoginPageTest 26 - ****************************** Starting test cases execution  *****************************************
+08-28-2022 13:37:35 LoginPageTest.java INFO  [main] tests.LoginPageTest 27 - launching broswer
+Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+08-28-2022 13:37:40 LoginPageTest.java INFO  [main] tests.LoginPageTest 29 - entering application URL
+08-28-2022 13:37:40 LoginPageTest.java WARN  [main] tests.LoginPageTest 30 - Hey this just a warning message
+08-28-2022 13:37:40 LoginPageTest.java FATAL [main] tests.LoginPageTest 31 - hey this is just fatal error message
+08-28-2022 13:37:40 LoginPageTest.java DEBUG [main] tests.LoginPageTest 32 - this is debug message
+Trying to find Element By : By.id: usernameInput-input
+Found Element By : By.id: usernameInput-input
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.id: signIn
+Found Element By : By.id: signIn
+Trying to click on: [[FirefoxDriver: firefox on MAC (8b9b1824-2112-45b3-813c-3b9875701247)] -> id: signIn]
+Clicked on: [[FirefoxDriver: firefox on MAC (8b9b1824-2112-45b3-813c-3b9875701247)] -> id: signIn]
+Trying to find Element By : By.id: UsernameTextField__errors-usernameInput
+Found Element By : By.id: UsernameTextField__errors-usernameInput
+]]></system-out>
+    <system-err><![CDATA[1661708254846	Marionette	INFO	Stopped listening on port 63856
+1661708255321	geckodriver	INFO	Listening on 127.0.0.1:37076
+1661708255330	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileu7eOgx"
+2022-08-28 13:37:35.809 plugin-container[8894:289107] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:35.809 plugin-container[8894:289107] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:35.813 plugin-container[8894:289107] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:35.813 plugin-container[8894:289107] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:35.813 plugin-container[8894:289113] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:35.813 plugin-container[8894:289113] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708255829	Marionette	INFO	Marionette enabled
+1661708255868	Marionette	INFO	Listening on port 64049
+Read port: 64049
+1661708256072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileu7eOgx/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:37 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.scotiaonline.scotiabank.com"
+]]></system-err>
+  </testcase>
+  <testcase name="LoginWithEmptyEmail" classname="com.lms.qa.tests.LoginPageTest" time="0.503">
+    <system-out><![CDATA[08-28-2022 13:37:41 LoginPageTest.java INFO  [main] tests.LoginPageTest 26 - ****************************** Starting test cases execution  *****************************************
+08-28-2022 13:37:41 LoginPageTest.java INFO  [main] tests.LoginPageTest 27 - launching broswer
+Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+08-28-2022 13:37:45 LoginPageTest.java INFO  [main] tests.LoginPageTest 29 - entering application URL
+08-28-2022 13:37:45 LoginPageTest.java WARN  [main] tests.LoginPageTest 30 - Hey this just a warning message
+08-28-2022 13:37:45 LoginPageTest.java FATAL [main] tests.LoginPageTest 31 - hey this is just fatal error message
+08-28-2022 13:37:45 LoginPageTest.java DEBUG [main] tests.LoginPageTest 32 - this is debug message
+Trying to find Element By : By.id: usernameInput-input
+Found Element By : By.id: usernameInput-input
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.id: signIn
+Found Element By : By.id: signIn
+Trying to click on: [[FirefoxDriver: firefox on MAC (6be4241f-63cf-4115-b5b6-bc760255db4e)] -> id: signIn]
+Clicked on: [[FirefoxDriver: firefox on MAC (6be4241f-63cf-4115-b5b6-bc760255db4e)] -> id: signIn]
+Trying to find Element By : By.id: UsernameTextField__errors-usernameInput
+Found Element By : By.id: UsernameTextField__errors-usernameInput
+]]></system-out>
+    <system-err><![CDATA[1661708260600	Marionette	INFO	Stopped listening on port 64049
+1661708261122	geckodriver	INFO	Listening on 127.0.0.1:44256
+1661708261130	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilele2VxJ"
+2022-08-28 13:37:41.527 plugin-container[8905:289480] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:41.527 plugin-container[8905:289480] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:41.530 plugin-container[8905:289480] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:41.530 plugin-container[8905:289480] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:41.531 plugin-container[8905:289478] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:41.531 plugin-container[8905:289478] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708261549	Marionette	INFO	Marionette enabled
+1661708261596	Marionette	INFO	Listening on port 64242
+Read port: 64242
+1661708261895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofilele2VxJ/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:43 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.scotiaonline.scotiabank.com"
+]]></system-err>
+  </testcase>
+  <testcase name="LoginWithEmptyPassword" classname="com.lms.qa.tests.LoginPageTest" time="0.573">
+    <system-out><![CDATA[08-28-2022 13:37:46 LoginPageTest.java INFO  [main] tests.LoginPageTest 26 - ****************************** Starting test cases execution  *****************************************
+08-28-2022 13:37:46 LoginPageTest.java INFO  [main] tests.LoginPageTest 27 - launching broswer
+Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+08-28-2022 13:37:51 LoginPageTest.java INFO  [main] tests.LoginPageTest 29 - entering application URL
+08-28-2022 13:37:51 LoginPageTest.java WARN  [main] tests.LoginPageTest 30 - Hey this just a warning message
+08-28-2022 13:37:51 LoginPageTest.java FATAL [main] tests.LoginPageTest 31 - hey this is just fatal error message
+08-28-2022 13:37:51 LoginPageTest.java DEBUG [main] tests.LoginPageTest 32 - this is debug message
+Trying to find Element By : By.id: usernameInput-input
+Found Element By : By.id: usernameInput-input
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.id: signIn
+Found Element By : By.id: signIn
+Trying to click on: [[FirefoxDriver: firefox on MAC (90d0115a-3220-47b4-9a82-71ad4e90da8f)] -> id: signIn]
+Clicked on: [[FirefoxDriver: firefox on MAC (90d0115a-3220-47b4-9a82-71ad4e90da8f)] -> id: signIn]
+Trying to find Element By : By.id: PasswordTextField__errors-password
+Found Element By : By.id: PasswordTextField__errors-password
+]]></system-out>
+    <system-err><![CDATA[1661708266418	Marionette	INFO	Stopped listening on port 64242
+1661708266882	geckodriver	INFO	Listening on 127.0.0.1:43133
+1661708266890	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileMGrMOE"
+2022-08-28 13:37:47.288 plugin-container[8914:289825] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:47.288 plugin-container[8914:289825] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:47.293 plugin-container[8914:289825] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:47.293 plugin-container[8914:289825] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:47.293 plugin-container[8914:289823] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:47.293 plugin-container[8914:289823] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708267314	Marionette	INFO	Marionette enabled
+1661708267371	Marionette	INFO	Listening on port 64464
+Read port: 64464
+1661708267663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileMGrMOE/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:48 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://auth.scotiaonline.scotiabank.com"
+]]></system-err>
+  </testcase>
+  <testcase name="clickOnScotiaLogo" classname="com.lms.qa.tests.LoginPageTest" time="0.28">
+    <system-out><![CDATA[08-28-2022 13:37:52 LoginPageTest.java INFO  [main] tests.LoginPageTest 26 - ****************************** Starting test cases execution  *****************************************
+08-28-2022 13:37:52 LoginPageTest.java INFO  [main] tests.LoginPageTest 27 - launching broswer
+Before navigating to: 'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+Navigated to:'https://auth.scotiaonline.scotiabank.com/online?oauth_key=3HIRK9AFeVQ&oauth_key_signature=eyJraWQiOiJrUFVqdlNhT25GWUVDakpjMmV1MXJvNGxnb2VFeXJJb2tCbU1oX3BiZXNVIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJvYXV0aF9rZXkiOiIzSElSSzlBRmVWUSIsImNvbnNlbnRfcmVxdWlyZWQiOmZhbHNlLCJyZWRpcmVjdF91cmkiOiJodHRwczpcL1wvd3d3LnNjb3RpYW9ubGluZS5zY290aWFiYW5rLmNvbVwvb25saW5lXC9sYW5kaW5nXC9vYXV0aGxhbmRpbmcuYm5zIiwiZXhwIjoxNjYwODQ2NTE5LCJpYXQiOjE2NjA4NDUzMTksImp0aSI6Ijc1MTQ1YzAyLTBiNWEtNDM0YS1hNzg2LTcwNDkxNWQ2MGQ1NCIsImNsaWVudF9pZCI6IjhlZTkwYzM5LTFjNTItNGZmNC04YWU2LWE3YjU0YzUzOTkzMyIsImNsaWVudF9tZXRhZGF0YSI6eyJDaGFubmVsSUQiOiJTT0wiLCJBcHBsaWNhdGlvbkNvZGUiOiJINyJ9LCJpc3N1ZXIiOiJodHRwczpcL1wvcGFzc3BvcnQuc2NvdGlhYmFuay5jb20ifQ.XLOeaeuBL58Hpuq-7p44aqLZ2CCWwnqunBSJYFr5dQ5JxOi32R74w2qCxNcV3M8uEYX4CES_lCx0WD5FD26QlJ-vA3wQb0bSgGdEbYLyDac-imPGFZvmlMrt_MlNRdyNhxtK-t7cKUqLICf5WHaw9MTHmh0fKsQF6vt5Zo5HzA5Syb0bq9ljNMKn-zPglyeeO94lThBw2wMnvEEUvsPD9-BnNqotni9JJktnRdbM_XUrrWsfxuzOi6P0yvUnoV0YnY-rwifdjKbVkuLNPWolWlUnhHOIfoT4bv2oTE-WPdDRhtqF4CKovuH_guFYzQ-kHWzIUaCLnTK1GgJJeEnR-A&preferred_environment='
+08-28-2022 13:37:57 LoginPageTest.java INFO  [main] tests.LoginPageTest 29 - entering application URL
+08-28-2022 13:37:57 LoginPageTest.java WARN  [main] tests.LoginPageTest 30 - Hey this just a warning message
+08-28-2022 13:37:57 LoginPageTest.java FATAL [main] tests.LoginPageTest 31 - hey this is just fatal error message
+08-28-2022 13:37:57 LoginPageTest.java DEBUG [main] tests.LoginPageTest 32 - this is debug message
+Trying to find Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Found Element By : By.xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']
+Trying to click on: [[FirefoxDriver: firefox on MAC (7b1785b6-5db4-4b81-a795-8f9f204db5e9)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+Clicked on: [[FirefoxDriver: firefox on MAC (7b1785b6-5db4-4b81-a795-8f9f204db5e9)] -> xpath: //div[@class='_1B64ZrEq6BvPwNqtqnNEiC']]
+2
+Personal Banking | Scotiabank Canada
+]]></system-out>
+    <system-err><![CDATA[1661708272374	Marionette	INFO	Stopped listening on port 64464
+1661708272838	geckodriver	INFO	Listening on 127.0.0.1:28738
+1661708272846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileDEgd8W"
+2022-08-28 13:37:53.231 plugin-container[8925:290211] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:53.231 plugin-container[8925:290211] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:53.234 plugin-container[8925:290211] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:53.234 plugin-container[8925:290211] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 13:37:53.234 plugin-container[8925:290215] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 13:37:53.234 plugin-container[8925:290215] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661708273255	Marionette	INFO	Marionette enabled
+1661708273308	Marionette	INFO	Listening on port 64626
+Read port: 64626
+1661708273605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x_/bf1f11g96b5frjhzb6bgnz3c0000gn/T/rust_mozprofileDEgd8W/search.json.mozlz4", (void 0)))
+Aug. 28, 2022 1:37:54 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+]]></system-err>
+  </testcase>
+</testsuite>

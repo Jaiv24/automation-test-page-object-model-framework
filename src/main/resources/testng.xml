@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Scotiabank TDD">
+	<listeners>
+		<listener class-name="com.lms.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Scotianal ALL TESTS">
+		<classes>
+			<class name="com.lms.qa.tests.LoginPageTest"></class>
+			<class name="com.lms.qa.tests.HomePageTest"></class>
+			<class name="com.lms.qa.tests.BusinessPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
